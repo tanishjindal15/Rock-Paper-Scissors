@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+#container{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#heading{
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(0, 21, 255);
+}
+.image{
+    width:300px;
+    height: 300px;
+}
+.image:hover{
+    width:350px;
+    height: 350px;
+}
+#win{
+    font-size: 3rem;
+    color: rgb(49, 134, 49);
+}
+button{
+    font-size: 3rem;
+    border: none;
+    padding: 10px;
+    background-color:rgba(0, 21, 255, 0.196) ;
+    border-radius: 20px;
+    color: rgb(0, 81, 255);
+}
+button:hover{
+    background-color:rgba(0, 21, 255, 0.253) ;
+    font-size: 3.5rem;
+}
